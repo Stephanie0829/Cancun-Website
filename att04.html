@@ -1,0 +1,67 @@
+<!-- DOCTYPE HTML -->
+<HTML>
+<HEAD>
+	<title> Attraction 4  </title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</HEAD>
+<STYLE>
+	nav {
+		background-color: Dodgerblue;
+		color: white;
+	}
+</STYLE>
+<BODY>
+	<HEADER>
+	<H1> Rio Secreto </H1>
+	</HEADER>
+
+	<NAV>
+		<ul style="list-style: none;">
+		<li><a href="index.html">Home</a></td>
+		<li><a href="att01.html">Ik Ki: longest underwater cave</a></li>
+		<li><a href="att02.html">El Castillo, Chichen Itza</a</li>
+		<li><a href="att03.html">Underwater Museum</a</li>
+		<li><a href="att04.html">Rio Secreto</a></li>
+		<li><a href="att05.html">Resorts/Beaches</a></li>
+		<li><a href="Bibliography.html">Bibliography</a></li>
+		</ul>
+	</NAV>
+
+	<SECTIONA>
+	<img class="mySlides" src="images/att04/att4_01.png" alt="Rio Secreto Divers in the Water" width="350" height="350">
+	<img class="mySlides" src="images/att04/att4_02.png" alt="Cave with Stalactites" width="350" height="350">
+	<img class="mySlides" src="images/att04/att4_03.png" alt="Cave with Stalactites" width="350" height="350">
+	</SECTIONA>
+
+	<SCRIPT>
+	var slideIndex = 0;
+		showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}
+		slides[slideIndex-1].style.display = "block";
+		setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</SCRIPT>
+
+	<SECTION>
+	<ARTICLE>
+	<p> This attraction includes underwater caves and rivers full of stalactites, ponds, and cenotes. There are various chambers and crystal-clear waters. The Mayans had believed that this location was an openway to a life after death. </br></br> Tours are available with equipment including helmets, life jackets, lamps, and refreshments. </p>
+
+	<h2> Discovery and Opening </h2>
+	<p>A local Mayan farmer accidentally discovered this cenote in 2005 while trying to catch an iguana. After discovery, regulations were set in place for only ten percent of this location to be open to public visitors, and the rest for preservation. Guests were not allowed to touch the stalactites or stalagmites, and all had to go through a water cleansing process to avoid contamination and corruption of the natural landmark. The location initially included no electricity, and also no footways or pathways as it was only recently discovered. </p>
+
+	</ARTICLE>
+	</SECTION>
+
+	<FOOTER>
+	 <p> Webpage created by Stephanie Wei for AP Computerscience Principles Period 1, Date of publication 6/11/19 </p>
+	</FOOTER>
+</BODY>
+</HTML>

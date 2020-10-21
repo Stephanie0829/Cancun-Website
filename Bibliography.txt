@@ -1,0 +1,47 @@
+<!-- DOCTYPE HTML -->
+<HTML>
+<HEAD>
+	<title> Bibliography  </title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</HEAD>
+<STYLE>
+	nav {
+		background-color: Dodgerblue;
+		color: white;
+	}
+</STYLE>
+<BODY>
+	<HEADER>
+	<H1> Bibliography </H1>
+	</HEADER>
+
+	<NAV>
+		<ul style="list-style: none;">
+		<li><a href="index.html">Home</a></td>
+		<li><a href="att01.html">Ik Ki: longest underwater cave</a></li>
+		<li><a href="att02.html">El Castillo, Chichen Itza</a</li>
+		<li><a href="att03.html">Underwater Museum</a</li>
+		<li><a href="att04.html">Rio Secreto</a></li>
+		<li><a href="att05.html">Resorts/Beaches</a></li>
+		<li><a href="Bibliography.html">Bibliography</a></li>
+		</ul>
+	</NAV>
+
+  <SECTION>
+  <ARTICLE>
+    <ul>Ancient Observatories: Chichen Itza, www.exploratorium.edu/ancientobs/chichen/HTML/castillo.html.</ul>
+    <ul>10 Things You Didn't Know About Cancun. Teletext Holidays, www.teletextholidays.co.uk/blog/10-things-you-didnt-know-about-cancun.</ul>
+    <ul>25 Things To Know About Cenote Ik Kil Yucatan. Traveltomtom, www.traveltomtom.net/destinations/north-america/mexico/cenote-ik-kil-yucatan.</ul>
+    <ul>Cenote Ik Kil - A Natural Water Sinkhole for the Gods. Top Mexico Master Broker, 29 Mar. 2019, topmexicomasterbroker.com/en/cenote-ik-kil/.</ul>
+    <ul>Chichen Itza The Grand Ball Court. Mexico Archeology, www.mexicoarcheology.com/chichen-itza-the-grand-ball-court/.</ul>
+    <ul>Editors, History.com. Chichen Itza. History.com, A&E Television Networks, 19 Feb. 2018, www.history.com/topics/ancient-americas/chichen-itza.</ul>
+    <ul>Free Image on Pixabay - Cancun, Mexico, Tropical, Beach. Cancun Mexico Tropical - Free Photo on Pixabay, pixabay.com/photos/cancun-mexico-tropical-beach-sea-1235489/.
+Great Ball Court - Chichen Itza - The Ultimate Guide. Chichen Itza, chichenitzaruins.org/places/great-ball-court/.</ul>
+    <ul>The History Behind Paradise: How Cancun Was Born. Yucatan Holidays, 18 Apr. 2012, www.yucatan-holidays.com/featured-articles/the-history-behind-paradise-how-cancun-was-born/.</ul>
+    <ul>MUSA. MUSA, musamexico.org/.</ul>
+    <ul>Pacsafe | The Best Travel &amp; Anti-Theft Gear | 20 Years of Safe Travels. Swimming in a Big Hole: The Ik Kil Cenote of Yucatan, Mexico, www.pacsafe.com/blog/swimming-in-a-big-hole-the-ik-kil-cenote-of-yucatan-mexico.html.</ul>
+    <ul>Rio Secreto: Mexico's Secret Cenotes. WorldWideAdventurers, 3 Sept. 2018, worldwideadventurers.com/rio-secreto-cenotes-yucatan-mexico/.</ul>
+  </ARTICLE>
+  </SECTION>
+</BODY>
+</HTML>

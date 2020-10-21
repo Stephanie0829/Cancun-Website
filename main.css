@@ -1,0 +1,291 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+
+	background: white;
+	margin-top: 0;
+
+}
+#container {
+	width:1500px;
+/* align this div center horizontally */
+	margin: 0, auto;
+}
+
+header{
+
+	height:80px;
+	line-height:80px;
+
+
+}
+h1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+
+}
+/* the styles for the FOOTER section*/
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+	background:Dodgerblue;
+	clear: left;
+	width: 100%
+}
+
+ul, ul li {
+	margin-left: 0;
+/*	padding: .25em; */
+/*	list-style: none; */
+
+}
+
+ul li a{
+/*	display: block;  */
+/*	width: 350px; */
+	width: 50%;
+	line-height: 2em;
+	font-size: 1em;
+	text-decoration: none;
+	background:  #aed7be;
+	padding: .5em;
+	border-bottom: .125em solid white;
+	color:Dodgerblue;
+}
+
+ul li a:hover, ul li a:focus {
+background: #f78e07;
+}
+p{
+	padding: .5em;
+}
+
+ li:last-child a {
+	border-bottom: none
+}
+
+a:link {
+    color: #0000FF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0000FF;
+    background-color: white;
+	background: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#wrapper {
+/* set the width to 100% */
+	width: 100%;
+}
+
+#content {
+	float: left;
+/*	width: 600px;  */
+	width: 60%;
+	}
+
+#sec2 {
+	padding: 5px;
+	overflow: hidden;
+	float: left;
+}
+
+#sec2 p{
+	font-size: 120%;
+	font-color: green;
+
+}
+article{
+	margin: auto;
+    overflow: hidden;
+	float: left;
+	width: 100%
+}
+
+#sec3 {
+
+
+
+}
+
+/* the styles for the NAV section*/
+
+nav{
+	background:#aed7be;
+/*	width:350px;  */
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+
+}
+nav a{
+	width: 35%;
+
+}
+
+aside {
+	background:#aed7be;
+/* float the element to right */
+/* set the width to 160 pixel wide */
+	float: left;
+/*	width: 350px;  */
+	width: 35%;
+	margin-top: 10px;
+}
+a:hover, a:focus {
+background-color: #58d68d;
+}
+
+
+/* Special Horizontal Navigation Bar */
+
+#nav1{
+	  background:#aed7be;
+	  overflow: hidden;
+      width: 100%;
+	  }
+
+/*#nav1 ul {
+   list-style:none;
+   padding: 0;
+   margin: 0 auto;
+   width: auto;
+} */
+
+#nav1 ul li {
+	border-bottom-width: clear;
+	font-weight: normal;
+  /* text-transform: uppercase;  */
+	float: left;
+
+}
+
+#nav1 ul li a {
+   border: clear;
+   display: block;
+ /* padding: .25em; 	*/
+ /* border: 1px solid #ba89a8; */
+   border: none;
+/*  border-radius: .5em;	*/
+   margin: 0;
+  text-align: center;
+  width: 200px;
+	height: 75px;
+	border-right: .125em solid white;
+}
+
+/* Form layout --------------------------------------------------*/
+label{
+	width: 6em;
+	text-align: right;
+	float: left;
+}
+input{
+	margin-left: 1em;
+	margin-bottom: .5em;
+	width: 24em;
+}
+input:focus{
+	border: 4px solid green;
+}
+
+#button {
+
+	background-color: lightgreen;
+	border: solid;
+	width: 9em;
+	padding: 3px;
+}
+
+
+/* Form Section */
+section {
+	width: 580px;
+	float: left;
+	padding: 20px 40px 20px 20px;
+	margin-left: 150px;
+}
+
+Section a{
+	margin-top: 2em;
+	margin-left: 10em;
+}
+
+
+
+
+/* GALLERY ------------------------------------------------------------*/
+
+/* 3 cols default */
+.gallery{
+	overflow: hidden;
+	width: 100%;
+}
+
+.gallery li{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	height: 400px;
+	float: left;
+	margin: 10px 10px;
+}
+
+.gallery li span{
+	display: none;
+	position: absolute;
+	top:  0px;
+	right: 0px;
+	width: 44px;
+	height: 44px;
+	background: url(../img/yellow/sprites.png) no-repeat -0px -31px;
+}
+
+.gallery li:hover span{
+	display: block;
+}
+
+.gallery li em{
+	display: block;
+	position: absolute;
+	width: 280px;
+	bottom: 0px;
+	left: 10px;
+	padding: 10px 10px 0px 10px;
+	background: white;
+	color: #1f1f1f;
+	font-size: 20px;
+	font-style: normal;
+}
+
+/* Table Section ----- */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    text-align: left;
+}
